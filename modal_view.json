@@ -1,0 +1,68 @@
+{
+  "type": "modal",
+  "title": {
+    "type": "plain_text",
+    "text": "My App",
+    "emoji": true
+  },
+  "submit": {
+    "type": "plain_text",
+    "text": "Submit",
+    "emoji": true
+  },
+  "close": {
+    "type": "plain_text",
+    "text": "Cancel",
+    "emoji": true
+  },
+  "blocks": [
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "This is a plain text section block.",
+        "emoji": true
+      }
+    },
+    {
+      "type": "input",
+      "element": {
+        "type": "plain_text_input",
+        "action_id": "suspected_species"
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Suspected Species",
+        "emoji": true
+      },
+      "block_id": "suspected_species"
+    },
+    {
+      "type": "input",
+      "element": {
+        "type": "plain_text_input",
+        "action_id": "found_at"
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Found at",
+        "emoji": true
+      },
+      "block_id": "found_at"
+    },
+    {
+      "type": "input",
+      "element": {
+        "type": "plain_text_input",
+        "multiline": true,
+        "action_id": "notes"
+      },
+      "label": {
+        "type": "plain_text",
+        "text": "Notes",
+        "emoji": true
+      },
+      "block_id": "notes"
+    }
+  ]
+}
